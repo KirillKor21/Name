@@ -36,7 +36,7 @@ int main()
     }//вводим в лист
     
 
-    while (!lsnum.empty())//пока лист не пуст 
+    while (!lsnum.empty())//пока лист не пус
     {
         for (auto is_lschet = chet.begin(); is_lschet != chet.end(); is_lschet++) {
             if (*is_lschet == lsnum.front()) {
